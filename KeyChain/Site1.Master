@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="KeyChain.Site1" %>
+
+<html>
+<head runat="server">
+	<meta charset="UTF-8">
+	<title>Customize Keychain</title>
+	<link rel="stylesheet" href="~/css/style.css" type="text/css">
+</head>
+<body runat="server">
+ 
+	<div id="header">
+		<div>
+			<div id="logo">
+				<a href="~main.aspx"><img src="images/logo.png" /></a>
+			</div>
+			<ul id="navigation">
+				<li class="selected">
+					<a href="main.aspx">Home</a>
+				</li>
+				<li>
+					<a href="about.aspx">About</a>
+				</li>
+				<li>
+					<a href="gallery.aspx">Gallery</a>
+				</li>
+				<li>
+					<a href="blog.aspx">Blog</a>
+				</li>
+				<li>
+					<a href="contact.aspx">Contact</a>
+				</li>
+			</ul>
+		</div>
+    
+	</div>
+        <asp:ContentPlaceHolder ID="body" runat="server">
+	<div id="contents"> 
+		<div>
+			<div class="body">
+				<div id="adbox">
+                   <img src="images/Wood1.jpg" /> 
+					<div class="details">
+						<h1> <asp:ContentPlaceHolder ID="h1" runat="server">
+                            Quality<br>Customize KeyChain<br> That's Built to Last.</asp:ContentPlaceHolder>
+                           </h1>
+						<p>
+                            <asp:ContentPlaceHolder ID="p" runat="server">
+						</asp:ContentPlaceHolder></p>
+					</div>
+				</div>
+
+				<ul id="featured">
+					<li>
+						<div>
+							<img src="images/Wood7.PNG" /> <a href="gallery.aspx" runat="server"></a>
+						</div>
+						<div class="details">
+							<h4>Maple Board</h4> 
+							<p>
+							For maple board, it is more to wood/board design/board
+							</p>
+						</div>
+					</li>
+					<li class="acrylic">
+						<div>
+							<img src="images/Wood10.PNG" /> <a href="gallery.aspx"></a>
+						</div>
+						<div class="details">
+							<h4>Acrylic</h4>
+							<p>
+								For acrylic, it is transparent types of material which it is similar to glass and it is long last
+							</p>
+						</div>
+					</li>
+                    				<li class="customize">
+						<div>
+							<img src="images/Wood4.PNG" /> <a href="gallery.aspx"></a>
+						</div>
+						<div class="details">
+							<h4>Customize</h4>
+							<p>
+								You have your own design ? we able to create it for you.
+							</p>
+						</div>
+					</li>
+				</ul>
+
+				 </asp:ContentPlaceHolder> </div>
+	<div id="footer">
+		<div>
+			
+			<ul class="navigation">
+				<li>
+					<a href="main.aspx">Home</a>
+				</li>
+				<li>
+					<a href="about.aspx">About</a>
+				</li>
+				<li>
+					<a href="gallery.aspx">Gallery</a>
+				</li>
+				<li>
+					<a href="blog.aspx">Blog</a>
+				</li>
+				<li>
+					<a href="contact.aspx">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>
