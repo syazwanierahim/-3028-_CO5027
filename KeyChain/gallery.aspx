@@ -27,13 +27,13 @@
 						<div class="details">
 							<h5>Details</h5>
 							<p>
-								<b>Measurements:</b> 100" x 150" x 100"
+								<b>Measurements:</b> 1 Inch X 3 Inch
 							</p>
 							<p>
-								<b>Weight:</b> 150 lbs.
+								<b>Diemeter:</b> 3.6 Millimeter
 							</p>
 						</div>
-						<span class="price">$623.00</span>
+						<span class="price">$5.00</span>
 					</li>
 					<li>
 						<div class="frame">
@@ -46,13 +46,13 @@
 						<div class="details">
 							<h5>Details</h5>
 							<p>
-								<b>Measurements:</b> 200" x 150" x 200"
+								<b>Measurements:</b> 2 Inch X 2 Inch
 							</p>
 							<p>
-								<b>Weight:</b> 250 lbs.
+								<b>Diemeter:</b> 3.6 Millimeter
 							</p>
 						</div>
-						<span class="price">$870.00</span>
+						<span class="price">$5.00</span>
 					</li>
 				</ul>
             </div>
